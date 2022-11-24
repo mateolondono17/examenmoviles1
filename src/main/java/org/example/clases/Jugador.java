@@ -66,4 +66,10 @@ public class Jugador {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+
+
+    public String toString(){
+        return "\n"+ camiseta +" "+ nombre +" "+ apellido + " "+ edad + " "+ posicion + " " + equipo;
+    }
+
 }
